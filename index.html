@@ -20,13 +20,17 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
-  <body style="background-color: rgb(23,32,51)">
+  <body style="background-color: rgb(23,32,51); font-family: Menlo,Meslo LG,monospace; ">
+
+    <div class="container">
       
         <div class="jumbotron" style="background-color: rgb(23,32,51);">
-          <h2 class="display-3" style="color: rgb(5, 122, 255); font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif";>Greg LaFauci</h2>
-          <p class="lead" style="color: rgb(151, 161, 173)">Personal Website & Blog</p>
+          <h1 class="display-3" style="color: rgb(72, 146, 128); font-size: 2rem; text-shadow: 0 0 .1rem whitesmoke;";>Greg LaFauci</h1>
+          <h4 style="color: rgb(162, 179, 174);";>Project Website and Blog</h4><hr/>
+          <p class="lead" style="color: rgb(151, 161, 173)">Journaling my studies in web development, python programming, data science, and machine learning.</p>
           <hr class="my-2">
-          <p style="color: rgb(151, 161, 173)">I am currently studying Python, and will soon be looking for work. This page will showcase some of the projects that I have worked on. </p>
+          <h4 style="color: rgb(72, 146, 128)">About Me</h4>
+          <p class="lead" style="color: rgb(151, 161, 173)">I am a NYC based software developer currently focused on Python for Machine Learning applications. Some of my projects and discoveries will be shared here, along with on Github.</p>
 
         </div>
   
@@ -34,40 +38,42 @@
 
 
 
-      <div class="container">
+      
         <div class="row">
-  
-          <div class="col-md mb-3">
-            <div class="card">
+          <div class="col-lg mb-5">
+            <div class="card" style="background-color:rgb(166,166,166); max-width: 350px; min-height: 500px;">
               <img src="./helicopter_thumb.png" class="card-img-top" alt="helicopter game thumbnail image" style="height: 280px;">
               <div class="card-body">
-                <h5 class="card-title">HTML5 Helicopter Game...</h5>
+                <h5 class="card-title">HTML5 Helicopter Game</h5>
+                <hr/>
                 <p class="card-text">This started out as a helicopter, but quickly changed. Probably will need to ask permission for that craft.</p>
-                <a href="https://greglafauci.github.io/Helicopter-Game/" class="btn btn-primary">Play</a>
-                <a href="https://github.com/GregLaFauci/Helicopter-Game" class="btn btn-primary">Code</a>
+                <a href="https://greglafauci.github.io/Helicopter-Game/" class="btn btn-secondary">Play</a>
+                <a href="https://github.com/GregLaFauci/Helicopter-Game" class="btn btn-dark">Code</a>
               </div>
             </div>
           </div>
 
-          <div class="col-md mb-3">
-            <div class="card">
+          <div class="col-lg mb-5">
+            <div class="card" style="background-color: rgb(166,166,166); max-width: 350px; min-height: 500px;">
               <img src="./nycMTA.png" class="card-img-top" alt="nyc MTA thumbnail" style="height: 280px;">
               <div class="card-body">
                 <h5 class="card-title">NYC MTA Stations</h5>
+                <hr/>
                 <p class="card-text">Plotting all of the stations in NYC using pydeck. Still need to multi-plot stations that serve more than one train. </p>
-                <a href="https://greglafauci.github.io/gh_pages_nycMTA/" class="btn btn-primary">Open Map</a>
+                <a href="https://greglafauci.github.io/gh_pages_nycMTA/" class="btn btn-secondary">Open Map</a>
                 
               </div>
             </div>
           </div>
 
-          <div class="col-md mb-3">
-            <div class="card">
+          <div class="col-lg mb-5">
+            <div class="card" style="background-color: rgb(166,166,166); max-width: 350px; min-height: 500px;">
               <img src="./gh_pages_nycTrees.png" class="card-img-top" alt="nyc Trees thumbnail" style="height: 280px;">
               <div class="card-body">
                 <h5 class="card-title">NYC Street Trees</h5>
-                <p class="card-text">Using pydeck to plot large datasets. NYC Street trees. </p>
-                <a href="https://greglafauci.github.io/gh_pages_nycTrees/" class="btn btn-primary">Open Map</a>
+                <hr/>
+                <p class="card-text">Using pydeck to plot large datasets. NYC Street trees currently works best on desktop. </p>
+                <a href="https://greglafauci.github.io/gh_pages_nycTrees/" class="btn btn-secondary">Open Map</a>
                 
               </div>
             </div>
