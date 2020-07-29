@@ -37,17 +37,14 @@
           <hr class="my-2">
           <h4 style="color: rgb(72, 146, 128)">About Me</h4>
           <p class="lead" style="color: rgb(151, 161, 173)">I am a NYC based software developer currently focused on Python for Machine Learning applications. Some of my projects and discoveries will be shared here, along with on Github.</p>
-
-          
-
-        </div>
+      </div>
   
       
         <h4 style="color: rgb(72, 146, 128)">Projects:</h4>
         <hr/>
 
-
         <div class="row">
+
         <div class="col-lg mb-5">
           <div class="card" style="background-color: rgb(166,166,166); max-width: 350px; min-height: 500px;">
             <a href="https://greglafauci.github.io/gh_pages_hoodCount/" class="btn btn-secondary" style="padding: 0;"><img src="./hoodCount.png" class="card-img-top" alt="nyc hoodCount thumbnail" style="height: 280px;"></a>
@@ -55,28 +52,13 @@
             <div class="card-body">
               <h5 class="card-title">NYC Arrest by Neighborhood Tabulation Areas</h5>
               <hr/>
-              <p class="card-text">Calculating point in polygon & multipolygon for all arrests in NYC distributed across NYC neighborhoods instead of precincts. </p>
+              <p class="card-text">Referencing the <a href="https://maps.nyc.gov/crime/">NYC Crime Map</a>, and data gathered from <a href="https://opendata.cityofnewyork.us/">NYC Open Data</a>. I wanted to be able to see arrests per neighborhood instead of precinct.This was solved by calculating point in polygon & multipolygon. Once I solved how to execute one area I applied the algorithm for all arrests in NYC distributed across NYC neighborhoods instead of precincts. </p>
               <a href="https://greglafauci.github.io/gh_pages_hoodCount/" class="btn btn-secondary">Open Map</a>
               
             </div>
           </div>
         </div>
 
-      
-        
-          <div class="col-lg mb-5">
-            <div class="card" style="background-color:rgb(166,166,166); max-width: 350px; min-height: 500px;">
-              <a href="https://greglafauci.github.io/Helicopter-Game/" class="btn btn-secondary" style="padding: 0;" ><img src="./helicopter_thumb.png" class="card-img-top" alt="helicopter game thumbnail image" style="height: 280px;"></a>
-              
-              <div class="card-body">
-                <h5 class="card-title">HTML5 Helicopter Game</h5>
-                <hr/>
-                <p class="card-text">This started out as a helicopter, but quickly changed. Not mobile friendly...yet.</p>
-                <a href="https://greglafauci.github.io/Helicopter-Game/" class="btn btn-secondary">Play</a>
-                <a href="https://github.com/GregLaFauci/Helicopter-Game" class="btn btn-dark">Code</a>
-              </div>
-            </div>
-          </div>
 
           <div class="col-lg mb-5">
             <div class="card" style="background-color: rgb(166,166,166); max-width: 350px; min-height: 500px;">
@@ -85,7 +67,7 @@
               <div class="card-body">
                 <h5 class="card-title">NYC MTA Stations</h5>
                 <hr/>
-                <p class="card-text">Plotting all of the stations in NYC using pydeck. Still need to multi-plot stations that serve more than one train. </p>
+                <p class="card-text">Having fun using PyDeck map the NYC subway system. Also, created an interactive map using Streamlit. Still need to multi-plot stations that serve more than one train, and would like to add a layer of the actual train line itself. The goal is for the train line to be modifed by the time slider so that you would be able to recreate a historical NYC subway map for any year chosen.</p>
                 <a href="https://greglafauci.github.io/gh_pages_nycMTA/" class="btn btn-secondary">Open Map</a>
                 <a href="https://nyc-mta-stations.herokuapp.com/" class="btn btn-dark">Interactive Map</a>
                 
@@ -93,28 +75,39 @@
             </div>
           </div>
 
-          <div class="col-lg mb-5">
-            <div class="card" style="background-color: rgb(166,166,166); max-width: 350px; min-height: 500px;">
-              <a href="https://greglafauci.github.io/gh_pages_nycTrees/" class="btn btn-secondary" style="padding: 0;"><img src="./gh_pages_nycTrees.png" class="card-img-top" alt="nyc Trees thumbnail" style="height: 280px;"></a>
-              
-              <div class="card-body">
-                <h5 class="card-title">NYC Street Trees</h5>
-                <hr/>
-                <p class="card-text">Using pydeck to plot large datasets. NYC Street trees currently works best on desktop. </p>
-                <a href="https://greglafauci.github.io/gh_pages_nycTrees/" class="btn btn-secondary">Open Map</a>
+      
+
+            <div class="col-lg mb-5">
+              <div class="card" style="background-color: rgb(166,166,166); max-width: 350px; min-height: 500px;">
+                <a href="https://greglafauci.github.io/gh_pages_nycTrees/" class="btn btn-secondary" style="padding: 0;"><img src="./gh_pages_nycTrees.png" class="card-img-top" alt="nyc Trees thumbnail" style="height: 280px;"></a>
                 
+                <div class="card-body">
+                  <h5 class="card-title">NYC Street Trees</h5>
+                  <hr/>
+                  <p class="card-text">Having more fun with pydeck to plot large datasets. NYC Street trees currently works best on desktop. The patterns that emerge once the trees were given unique colors are fun to explore. Future plans to add a tree selection legend to allow visibility of unique sets of trees or singular tree types. </p>
+                  <a href="https://greglafauci.github.io/gh_pages_nycTrees/" class="btn btn-secondary">Open Map</a>
+                  
+                </div>
               </div>
             </div>
-          </div>
-
-
-
-
-
-
+  
+  
+            <div class="col-lg mb-5">
+              <div class="card" style="background-color:rgb(166,166,166); max-width: 350px; min-height: 500px;">
+                <a href="https://greglafauci.github.io/Helicopter-Game/" class="btn btn-secondary" style="padding: 0;" ><img src="./helicopter_thumb.png" class="card-img-top" alt="helicopter game thumbnail image" style="height: 280px;"></a>
+                
+                <div class="card-body">
+                  <h5 class="card-title">HTML5 Helicopter Game</h5>
+                  <hr/>
+                  <p class="card-text">The project assignment was to create a box that you were able to move, along with randomized obstacles that the box needed to avoid. This project started out as a helicopter scrolling shooter game, and quickly evolved. Local mem is used to store high score. Have fun!! Not mobile friendly... yet.</p>
+                  <a href="https://greglafauci.github.io/Helicopter-Game/" class="btn btn-secondary">Play</a>
+                  <a href="https://github.com/GregLaFauci/Helicopter-Game" class="btn btn-dark">Code</a>
+                </div>
+              </div>
+            </div>
+          </div>  
       </div>
-
-      </div>
+      
     </div>
 
 
